@@ -69,4 +69,4 @@ spec:
          - exposedPort: 13132
          - exposedPort: 13133
          - exposedPort: 8080
-     memoryLimit: "8Gi"
+     memoryLimit: "6Gi"
