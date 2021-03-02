@@ -10,7 +10,7 @@ components:
       https://raw.githubusercontent.com/mplab-xpresside/devfiles/master/meta-mplab-xpresside.yaml
   - alias: mcc
     type: dockerimage
-    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/prod/mcc-v1.0.rc1-v2:latest
+    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/prod/mcc-v1.0.rc1-v3:latest
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
