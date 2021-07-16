@@ -7,10 +7,10 @@ attributes:
 components:
   - type: cheEditor
     reference: >-
-      https://raw.githubusercontent.com/mplab-xpresside/devfiles/master/meta-mplab-xpresside.yaml
+      https://raw.githubusercontent.com/mplab-xpresside/devfiles-ext/master/meta-mplab-xpresside.yaml
   - alias: mcc
     type: dockerimage
-    image: 453345707098.dkr.ecr.us-west-2.amazonaws.com/xpress/prod/mcc-v1.0.0:latest
+    image: 553553172750.dkr.ecr.us-west-2.amazonaws.com/xpress/mcu8/mcc-4.1.1:latest
     volumes:
       - name: xpressprojects
         containerPath: /home/projects
